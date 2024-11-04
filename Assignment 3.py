@@ -4,7 +4,7 @@ import math
 def compute_HRV(interval1: float, interval2: float, interval3: float) -> float:
     """
     Computes heart rate variability (HRV).
-    Parameters:
+    Parameters: 3
         interval1, interval2, interval3: three successive heartbeat intervals, in ms
     Returns:
         the heart rate variability as the standard deviation of the intervals
